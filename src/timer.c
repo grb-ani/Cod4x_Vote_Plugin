@@ -51,7 +51,6 @@ void* voteTimer(void* arg) {
 
     while (!atomic_load(&vStruct->timerExit)) {
         if (!atomic_load(&vStruct->invoked)) {
-            Plugin_Printf("No votes in progress\n");
             nanosleep(&dur500000000, NULL);
 
         } else {

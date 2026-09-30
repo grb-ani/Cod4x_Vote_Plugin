@@ -75,3 +75,14 @@ vNum-tgbot.rep
 .cache
 payloads/
 
+# VS Code and development container files
+.vscode/
+.devcontainer/
+docker-compose.yml
+
+# Taskfiles
+Taskfile.yml
+.task/
+
+# Configuration files
+maps.txt
