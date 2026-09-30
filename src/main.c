@@ -1,6 +1,6 @@
-#include "../libs/pinc.h"
-#include "../include/structs.h"
-#include "../include/timer.h"
+#include "pinc.h"
+#include "structs.h"
+#include "timer.h"
 
 #include <string.h>
 #include <malloc.h>

@@ -1,5 +1,5 @@
-#include "../libs/pinc.h"
-#include "../include/timer.h"
+#include "pinc.h"
+#include "timer.h"
 
 #include <malloc.h>
 #include <pthread.h>
